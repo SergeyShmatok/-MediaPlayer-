@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediaPlayer" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+</resources>
+
+<!--<item name="android:statusBarColor">@android:color/transparent</item>-->

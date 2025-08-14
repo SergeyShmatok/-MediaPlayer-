@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="click_me">Play</string>
+    <string name="Точка">.</string>
+    <string name="_5_17">5:17</string>
+    <string name="talking_to_myself">Talking to Myself</string>
+    <string name="list_for_items_songs">list for items songs</string>
+    <string name="extend_fab_text">Слушать</string>
+    <string name="album">АЛЬБОМ</string>
+    <string name="one_more_light_live">One More Light Live</string>
+    <string name="linkin_park">Linkin Park</string>
+    <string name="Singer">Исполнитель:</string>
+    <string name="_2017">2017, альтернатива</string>
+
+</resources>
