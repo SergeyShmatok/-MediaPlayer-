@@ -25,7 +25,7 @@ class MediaLifecycleObserver @Inject constructor(
 
         mediaPlayer?.prepareAsync()
         mediaPlayer?.setOnPreparedListener { it ->
-//            mediaPlayer?.seekTo(450000)
+//            mediaPlayer?.seekTo(800000)
             it.start()
         }
 
