@@ -21,7 +21,8 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/icon_play"
             style="@style/Widget.AppTheme.PlayCheckBox"
-            android:layout_width="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:checkable="true"
             android:contentDescription="@string/Точка"
@@ -31,43 +32,58 @@
             app:rippleColor="@android:color/transparent"
             tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry" />
 
+<!--        <TextView-->
+<!--            android:id="@+id/song_title"-->
+<!--            android:layout_width="198dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/talking_to_myself"-->
+<!--            android:textColor="@color/night_sky"-->
+<!--            android:textSize="16sp" />-->
+
         <TextView
             android:id="@+id/song_title"
-            android:layout_width="198dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="@string/talking_to_myself"
             android:textColor="@color/night_sky"
             android:textSize="16sp" />
 
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/icon_like"
             style="@style/Widget.AppTheme.LikeCheckBox"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:checkable="true"
             android:contentDescription="@string/Точка"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:icon="@drawable/ic_like_box_24"
             app:rippleColor="@null" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/icon_not"
             style="@style/Widget.AppTheme.IconButton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:contentDescription="@string/Точка"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:icon="@drawable/ic_not_box_24"
-            app:rippleColor="@color/light_grey_lightness2" />
+            app:rippleColor="@color/light_grey_lightness2"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/duration"
             style="@style/Widget.AppTheme.IconButton"
-            android:layout_width="66dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.1"
             android:layout_height="wrap_content"
             android:checkable="false"
+            android:maxLines="1"
             android:contentDescription="@string/Точка"
             android:paddingStart="2dp"
             android:text="@string/_5_17"
