@@ -12,7 +12,7 @@
 
 **Демонстрация:**
 <p align="left">
-  <img src="Screen-video/MediaPlayer_GIF.gif" width="300" alt="Демонстрация работы плеера">
+  <img src="Screen-video/MediaPlayer_GIF.gif" width="600" alt="Демонстрация работы плеера">
 </p>
 
 Смотреть [скрины](Screen-video)
